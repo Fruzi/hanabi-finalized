@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37026092-9613-4d1e-af80-39571e41e24a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/game_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanabi_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/hanabi_client.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="dbe7b8b4-ab9a-4e2e-bb7d-e71744f851b2" />
+  <component name="ProjectId" id="1hUpx0iWb0PljRPNBUgKcD77rPb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/thesis/hanabi-learning-environment-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37026092-9613-4d1e-af80-39571e41e24a" name="Default Changelist" comment="" />
+      <created>1600075768121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600075768121</updated>
+      <workItem from="1600075769185" duration="3572000" />
+      <workItem from="1600079853286" duration="4494000" />
+      <workItem from="1600090708456" duration="14000" />
+      <workItem from="1600177426863" duration="2568000" />
+      <workItem from="1600261739854" duration="2000" />
+      <workItem from="1600261757194" duration="635000" />
+      <workItem from="1600768429505" duration="4449000" />
+      <workItem from="1601466866045" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1600770672370">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1600770672370" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601466882876">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1601466882876" />
+    <state x="684" y="291" width="618" height="522" key="find.popup" timestamp="1600079995554">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="684" y="291" width="618" height="522" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1600079995554" />
+  </component>
+</project>

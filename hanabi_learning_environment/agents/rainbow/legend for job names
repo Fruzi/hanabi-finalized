@@ -1,0 +1,6 @@
+3 phase - training in sp, then mixed play and finally sp (runner_three_phase.sh)
+3 phase baseline - only training in sp, evaluated with rules along the way (runner_three_phase_baseline.sh)
+2 phase - mixed play followed by sp (runner_three_phase_no_priming.sh)
+3 rules - training with rules, then mixed play and finally sp (runner_three_phase_rules_priming.sh)
+rules_then_sp - training with rules, then sp (runner_rules_then_sp.sh)
+baseline - the regular train file, to create a sanity check (runner_baseline.sh)
