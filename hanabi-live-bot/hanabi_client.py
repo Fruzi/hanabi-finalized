@@ -202,13 +202,14 @@ class HanabiClient:
                         return
             msg = "All AI players are currently engaged in active games. Please wait a few minutes and try again"
             self.chat_reply(msg, data['who'])
+            return
         # Find the person the bot manager has told us to join
         data["msg"] = data["msg"][1:]  # Remove the slash
         parsed = data["msg"].split(" ", 1)
         if len(parsed) > 1:
             person_to_join = parsed[1]
         else:
-            msg = "You can't send join requests directly to AI players, the bot_manager handles that"
+            msg = "You can't send join requests directly to AI players, bot_manager handles that"
             self.chat_reply(msg, data['who'])
             return
             # person_to_join = data['who']

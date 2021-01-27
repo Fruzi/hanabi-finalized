@@ -33,7 +33,7 @@ def main():
 
     # Load environment variables from the ".env" file
     # dotenv.load_dotenv()
-    use_localhost = "true"
+    use_localhost = "false"
     # use_localhost = os.getenv("USE_LOCALHOST")
     if use_localhost == "":
         print('error: "USE_LOCALHOST" is blank in the ".env" file')
