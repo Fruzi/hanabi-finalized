@@ -14,7 +14,6 @@ if sys.version_info < (3, 0):
 import os
 
 # Imports (3rd-party)
-import dotenv
 import requests
 
 # Imports (local application)
