@@ -19,7 +19,8 @@ import json_to_pyhanabi
 
 AGENTS = {'evolved_b': EvolvedB, 'rules': EvolvedB, 'regular_rainbow': RainbowPlayer, 'changed_rainbow': RainbowPlayer,
           'rb': RainbowPlayer, '3_phase_with_rules': RainbowPlayer, '3_phase': RainbowPlayer,
-          '3_phase_with_rules+': RainbowPlayer, '3_phase+': RainbowPlayer, 'manager': None, 'blank': RainbowPlayer}
+          '3_phase_with_rules+': RainbowPlayer, '3_phase+': RainbowPlayer, 'manager': None, 'blank': RainbowPlayer,
+          '2-phase2': RainbowPlayer, '2-phase3': RainbowPlayer}
 
 
 class HanabiClient:
@@ -84,6 +85,10 @@ class HanabiClient:
                 base_dir = os.path.abspath('saved_agents/3_phase+')
             elif 'blank' == self.agent_type:
                 base_dir = os.path.abspath('saved_agents/blank')
+            elif '2-phase2' == self.agent_type:
+                base_dir = os.path.abspath('saved_agents/2_phase_short_2')
+            elif '2-phase3' == self.agent_type:
+                base_dir = os.path.abspath('saved_agents/2_phase_short_3')
             agent_config = {'observation_size': 658, 'num_players': 2,
                             'max_moves': 20,
                             'base_dir': base_dir}

@@ -72,7 +72,7 @@ def print_score(file, zoom=False, draw_baseline_rainbow=True, draw_baseline_rule
         plt.xlim(0, 100000000)
     if not draw_baseline_rainbow and not draw_baseline_rules:
         fig_name += ' no baselines'
-    plt.title('Three-Phase Training')
+    plt.title('Mixed-Training, then Self-Play')
     plt.savefig(fig_name)
     plt.clf()
 
@@ -111,7 +111,7 @@ if __name__ == "__main__":
     # parser.add_argument('name', type=str)
     # args = parser.parse_args()
     # file = args.name
-    file = '3_phase_8500_2'
+    file = '2_phase_short_3'
     print_score(file)
     print_score(file, draw_baseline_rainbow=False, draw_baseline_rules=False)
     # print_score(file, zoom=True)
