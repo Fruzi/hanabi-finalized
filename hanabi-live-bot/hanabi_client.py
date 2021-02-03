@@ -19,7 +19,7 @@ import json_to_pyhanabi
 
 AGENTS = {'evolved_b': EvolvedB, 'rules': EvolvedB, 'regular_rainbow': RainbowPlayer, 'changed_rainbow': RainbowPlayer,
           'rb': RainbowPlayer, '3_phase_with_rules': RainbowPlayer, '3_phase': RainbowPlayer,
-          '3_phase_with_rules+': RainbowPlayer, '3_phase+': RainbowPlayer, 'manager': None}
+          '3_phase_with_rules+': RainbowPlayer, '3_phase+': RainbowPlayer, 'manager': None, 'blank': RainbowPlayer}
 
 
 class HanabiClient:
@@ -82,6 +82,8 @@ class HanabiClient:
                 base_dir = os.path.abspath('saved_agents/3_phase_with_rules+')
             elif '3_phase+' == self.agent_type:
                 base_dir = os.path.abspath('saved_agents/3_phase+')
+            elif 'blank' == self.agent_type:
+                base_dir = os.path.abspath('saved_agents/blank')
             agent_config = {'observation_size': 658, 'num_players': 2,
                             'max_moves': 20,
                             'base_dir': base_dir}
@@ -195,7 +197,12 @@ class HanabiClient:
             # msg = "The manager can't join games"
             # self.chat_reply(msg, data["who"])
             for user in self.users.values():
-                if 'bot' in user['name'] and user['name'] != 'bot_manager':
+                reg_length = len("bot_manager")
+                if len(self.username) > reg_length:
+                    preamble = 'bot_' + self.username[reg_length:]
+                else:
+                    preamble = 'bot_'
+                if preamble in user['name'] and user['name'] != 'bot_manager':
                     if user['tableID'] == 0:
                         msg = f'/join {data["who"]}'
                         self.chat_reply(msg, user["name"])

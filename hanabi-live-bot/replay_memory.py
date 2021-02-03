@@ -419,6 +419,7 @@ class OutOfGraphReplayMemory(object):
           if isinstance(self.__dict__[attr], np.ndarray):
             print("BBBB")
             self.__dict__[attr] = np.load(infile, allow_pickle=False)
+            print("DDD")
           else:
             print("CCCC")
             self.__dict__[attr] = pickle.load(infile)
