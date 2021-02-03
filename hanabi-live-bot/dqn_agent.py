@@ -521,6 +521,7 @@ class DQNAgent(object):
     except tf.errors.NotFoundError:
       return False
     for key in self.__dict__:
+      print("hi\n")
       if key in bundle_dictionary:
         self.__dict__[key] = bundle_dictionary[key]
     self._saver.restore(self._sess, tf.train.latest_checkpoint(checkpoint_dir))
