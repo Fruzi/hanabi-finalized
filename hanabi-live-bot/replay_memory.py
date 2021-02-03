@@ -417,13 +417,9 @@ class OutOfGraphReplayMemory(object):
       with tf.gfile.Open(filename, 'rb') as f:
         with gzip.GzipFile(fileobj=f) as infile:
           if isinstance(self.__dict__[attr], np.ndarray):
-            print("BBBB")
             self.__dict__[attr] = np.load(infile, allow_pickle=False)
-            print("DDD")
           else:
-            print("CCCC")
             self.__dict__[attr] = pickle.load(infile)
-          print("AAAA\n")
 
 
 @gin.configurable(blacklist=['observation_size', 'stack_size'])
