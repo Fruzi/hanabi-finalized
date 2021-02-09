@@ -1,4 +1,4 @@
-model_checkpoint_path: "/home/uzi/hanabi-reworked/hanabi-live-bot/saved_agents/2_phase-short_2/checkpoints/tf_ckpt-6999"
-all_model_checkpoint_paths: "/home/uzi/hanabi-reworked/hanabi-live-bot/saved_agents/2_phase-short_2/checkpoints/tf_ckpt-6999"
-all_model_checkpoint_paths: "/home/uzi/hanabi-reworked/hanabi-live-bot/saved_agents/2_phase-short_2/checkpoints/tf_ckpt-6999"
-all_model_checkpoint_paths: "/home/uzi/hanabi-reworked/hanabi-live-bot/saved_agents/2_phase-short_2/checkpoints/tf_ckpt-6999"
+model_checkpoint_path: "/home/uzi/hanabi-finalized/hanabi-live-bot/saved_agents/2_phase_short_2/checkpoints/tf_ckpt-6999"
+all_model_checkpoint_paths: "/home/uzi/hanabi-finalized/hanabi-live-bot/saved_agents/2_phase-short_2/checkpoints/tf_ckpt-6999"
+all_model_checkpoint_paths: "/home/uzi/hanabi-finalized/hanabi-live-bot/saved_agents/2_phase-short_2/checkpoints/tf_ckpt-6999"
+all_model_checkpoint_paths: "/home/uzi/hanabi-finalized/hanabi-live-bot/saved_agents/2_phase-short_2/checkpoints/tf_ckpt-6999"
