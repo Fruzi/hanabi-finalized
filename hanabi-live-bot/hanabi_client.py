@@ -92,6 +92,7 @@ class HanabiClient:
             agent_config = {'observation_size': 658, 'num_players': 2,
                             'max_moves': 20,
                             'base_dir': base_dir}
+            print(agent_config)
             self.agent = AGENTS[self.agent_type](agent_config)
 
         # Start the WebSocket client

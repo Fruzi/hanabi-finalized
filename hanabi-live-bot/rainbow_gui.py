@@ -28,6 +28,7 @@ class RainbowPlayer(object):
             num_players=self.num_players,
         )
         path_weights = os.path.join(self.base_dir, 'checkpoints')
+        print("\n\n\n\n\n {} \n\n\n\n\n".format(path_weights))
         start_iteration, experiment_checkpointer = xp.initialize_checkpointing(self.agent, self.experiment_logger,
                                                                                path_weights, "ckpt")
         self.agent.eval_mode = False
